@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="BaseIn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VisualP"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="132" Height="33" Width="193">
+    <Canvas x:Name="canvas">
+        <Rectangle x:Name="InExec" Height="17" Canvas.Left="8" Canvas.Top="8" Width="17" Fill="White" Visibility="Hidden">
+            <Rectangle.Stroke>
+                <SolidColorBrush Color="#FFE1E1E1"/>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Label x:Name="InDescricao" Content="Executar" Canvas.Left="25" Canvas.Top="3" Width="72" Foreground="#FFC8C8C8"/>
+        <Ellipse x:Name="InValue" Fill="#00000000" Height="17" Canvas.Left="8" Canvas.Top="8" Width="17" Visibility="Visible">
+            <Ellipse.Stroke>
+                <SolidColorBrush Color="#FFF52626"/>
+            </Ellipse.Stroke>
+        </Ellipse>
+    </Canvas>
+</UserControl>

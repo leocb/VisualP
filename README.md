@@ -22,6 +22,8 @@ the following is a to-do list of things from the top of my head that still need 
 
 This was a group project on my engineering class and is only partially done, it is not supported and I do not plan to keep developing it.
 
+Also, there might be some stuff not in english, thread carefully ;)
+
 Use this project as a base for your own node-based graphical interface or open a PR and expand this. If you're making a lot of modifications, I'll make you a repo owner to make things easier.
 
 ## Running
